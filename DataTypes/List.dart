@@ -1,4 +1,4 @@
-//The list holds multiple values in a single variable. 
+//Lists(List)- It is an ordered group of items
 //It is also called arrays. If you want to store multiple values without creating multiple variables, you can use a list.
 
 void main(){
