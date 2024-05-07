@@ -19,7 +19,7 @@ class Student extends Person{
 
 void main(){
   Student student = new Student();
-  student.name = "Raj";
+  student.name = "Rahul";
   student.age = 18;
   student.schoolName = "High School";
   student.city = "Indore";
