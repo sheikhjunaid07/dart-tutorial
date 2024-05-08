@@ -1,28 +1,29 @@
 class Person{
   String? name;
+  String? gender;
   int? age;
-  void printData(){
+  void printPerson(){
     print("Name is: ${name}");
+    print("Gender is: ${gender}");
     print("Age is: ${age}");
   }
 }
-
 class Student extends Person{
-  String? schoolName;
+  String? school;
   String? city;
-
   void printStudent(){
-    print("Student school name is: ${schoolName}");
-    print("Student city is: ${city}");
+    print("School name is: ${school}");
+    print("City name is: ${city}");
   }
 }
 
 void main(){
   Student student = new Student();
-  student.name = "Rahul";
-  student.age = 18;
-  student.schoolName = "High School";
-  student.city = "Indore";
-  student.printData();
+  student.name = "Junaid";
+  student.gender = "Male";
+  student.age = 24;
+  student.school = "High School";
+  student.city = "Nepanagar";
+  student.printPerson();
   student.printStudent();
 }
